@@ -2,7 +2,7 @@ name: Deploy Brand Site (CI/CD)
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
