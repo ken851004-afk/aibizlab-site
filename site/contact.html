@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>聯絡 AI Business Lab</title>
+<meta name="description" content="想做聯盟推廣、合作、或者有問題？搵 AI Business Lab 嘅方法。">
+<link rel="canonical" href="https://aibizlab-hub.github.io/aibizlab-site/contact.html">
+<script data-goatcounter="https://aibizlab.goatcounter.com/count.js" async src="//gc.goatcounter.com/count.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;margin-top:2.5rem}
+.contact-form{display:flex;flex-direction:column;gap:.9rem}
+.contact-form input,.contact-form textarea{
+  padding:.85rem 1rem;border-radius:.8rem;border:1px solid var(--border);
+  background:var(--card);color:var(--fg);font-size:1rem;font-family:inherit;width:100%
+}
+.contact-form textarea{min-height:120px;resize:vertical}
+.contact-form button{align-self:flex-start}
+.contact-side .card{margin-bottom:1rem}
+@media(max-width:860px){.contact-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="brand"><span class="dot"></span> AI Business Lab</div>
+  <div class="nav-links">
+    <a href="index.html#features">點解揀我哋</a>
+    <a href="index.html#products">產品</a>
+    <a href="index.html#resources">資源</a>
+    <a href="about.html">關於</a>
+    <a href="contact.html">聯絡</a>
+  </div>
+  <button class="theme-btn" aria-label="切換深色模式">🌗</button>
+  <button class="burger" aria-label="選單">☰</button>
+</nav>
+
+<header class="wrap hero">
+  <div class="reveal" style="grid-column:1/-1">
+    <div class="eyebrow">聯絡</div>
+    <h1>講<a href="#" style="pointer-events:none" class="grad">声</a>？我哋聽緊。</h1>
+    <p class="lede">做聯盟推廣、商务合作、或者有嘢想問——填下表，我哋會回覆。</p>
+  </div>
+</header>
+
+<section class="wrap">
+  <div class="contact-grid">
+    <form class="contact-form reveal" action="https://formsubmit.co/aibizlab" method="POST">
+      <input type="text" name="name" placeholder="點稱呼你" required>
+      <input type="email" name="email" placeholder="你的電郵地址" required>
+      <textarea name="message" placeholder="你想講咩？" required></textarea>
+      <input type="hidden" name="_subject" value="AI Business Lab 網站聯絡">
+      <input type="hidden" name="_captcha" value="false">
+      <button class="btn btn-primary" type="submit">送出 →</button>
+    </form>
+    <div class="contact-side reveal">
+      <div class="card">
+        <div class="ico">💸</div>
+        <h3>想做聯盟推廣？</h3>
+        <p>填上面表格，主題寫「聯盟推廣」，我哋回覆附專屬推廣 URL。搵人買分你 50% 佣金。</p>
+      </div>
+      <div class="card">
+        <div class="ico">📚</div>
+        <h3>免費攻略</h3>
+        <p>先讀兩個部落格熱熱身：<br><a href="https://aibizlab-hub.github.io/aibizlab-blog/" style="color:var(--accent)">AI Business Lab Blog</a> · <a href="https://aibizlab-hub.github.io/aibizlab-hkfinance/" style="color:var(--accent)">HK Money Lab</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 AI Business Lab · 自動化內容生態</span>
+    <span>🔗 <a href="https://aibizlab-hub.github.io/aibizlab-blog/">Blog</a> · <a href="https://aibizlab-hub.github.io/aibizlab-hkfinance/">HK Money Lab</a> · <a href="https://gumroad.com">Gumroad</a></span>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
